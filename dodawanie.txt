@@ -1,0 +1,9 @@
+$ program dodajacy dwie liczby
+{
+VAR x:=0;y:=0;; 
+
+READ x;
+READ y;
+x := x+y;
+WRITE x
+}

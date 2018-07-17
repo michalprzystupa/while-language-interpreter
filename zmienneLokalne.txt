@@ -1,0 +1,13 @@
+$ program demonstrujacy dzialanie blokow lokalnych
+{
+VAR x:=1;y:=0;; 
+
+WRITE x;
+WRITE y;
+	{VAR y:=2;;
+	WRITE x;
+	WRITE y
+	};
+WRITE x;
+WRITE y
+}

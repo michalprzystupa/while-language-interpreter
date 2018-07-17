@@ -1,0 +1,9 @@
+{ 
+VAR x:=10;;
+REPEAT 
+	{
+	WRITE x;
+	x:=x-1
+	}
+UNTIL x==0
+}

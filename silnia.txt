@@ -1,0 +1,15 @@
+$ program liczacy silnie z liczby naturalnej
+{
+VAR result:=1;input:=0;; 
+
+READ input;
+IF input < 0 THEN THROW BledneDane ELSE
+	{
+	WHILE input>0 DO
+			{
+			result:=result*input;
+			input:=input-1
+			};
+	WRITE result
+	}
+}

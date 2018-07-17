@@ -1,0 +1,10 @@
+$ program dzielacy 2 liczby i lapiacy wyjatek
+{
+VAR x:=0;y:=0;; 
+
+READ x;
+READ y;
+
+TRY {IF y==0 THEN THROW DivByZero ELSE x:=x/y} CATCH DivByZero TO {x:=-1};
+WRITE x
+}
